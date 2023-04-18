@@ -8,14 +8,18 @@ header {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  background-color: aquamarine;
+  background-color: #fff;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo-link {
+  width: 100%;
+  text-align: center;
+  padding-right: 50px;
 }
 
 .logo {
-  position: relative;
-  right: 25px;
   width: 100px;
-  display: flex;
   margin: 6px auto;
 }
 
@@ -51,6 +55,7 @@ header {
   color: #ec5242;
   font-weight: 800;
   font-size: 32px;
+  word-spacing: 5px;
 }
 
 .parabox {
