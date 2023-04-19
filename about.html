@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./about.css" />
     <script src="./index.js"></script>
   </head>
@@ -35,9 +38,11 @@
       </div>
 
       <nav class="desktop-nav">
-        <a href="./index.html"><img src="./images/logo.png" alt="" /></a>
+        <a href="./index.html"
+          ><img class="desktop-logo" src="./images/logo.png" alt=""
+        /></a>
         <ul class="nav-ul">
-          <li class="nav-li">About</li>
+          <li class="nav-li"><a class="about-li" href="./about.html">About</a></li>
           <li class="nav-li">Program</li>
           <li class="nav-li">Join</li>
           <li class="nav-li">Sponsor</li>
@@ -58,7 +63,14 @@
           The Global Summit brings together the community of experts, academics,
           and activists who comprise the Creative Commons affiliate network in a
           different country every two years. This year, we hope to expand our
-          invitation list including organizations and individuals.
+          invitation list including organizations and individuals who want to
+          work with us on shared projects that advance the cause of the Commons,
+          free culture and open knowledge. So if you're active and engaged in
+          the worlds of open content and knowledge - free software advocates,
+          wikipedians, Open knowledge, galleries, libraries, museums, archives,
+          governments and foundations, lawyers, and activists - we hope you'll
+          consider joining us this year to build a stronger, more vibrant
+          commons together
         </p>
       </div>
 
@@ -67,7 +79,10 @@
           Please contact us per Email for nay further questions about CC Global
           Summit 2015!
         </p>
-        <h5 class="email">ccsummit2015@cckorea.org</h5>
+        <div class="email-div">
+          <h5 class="email">ccsummit2015@cckorea.org</h5>
+          <img class="arrow" src="./images/arrow.png" alt="" />
+        </div>
       </div>
     </section>
 
@@ -80,7 +95,10 @@
       </div>
       <p class="about-logo-para">
         The logo of CC Global Summit 2015 was decided through the logo
-        competition from 8, June to 7, July.
+        competition from 8, June to 7, July. After online public voting and
+        Selection Committee’s judging process, the logo from Naresh Agrawal won
+        the prize. After consultation with Mr. Agrawal, we optimized the
+        prize-winning-logo for this year’s summit as follows:
       </p>
       <img
         class="about-logo-img"
@@ -98,16 +116,18 @@
         The logo of CC Global Summit 2015 was decided through the logo
         competition from 8, June to 7, July.
       </p>
-      <img
-        class="summit-img"
-        src="./images/about_2011 1.png"
-        alt="about logo"
-      />
-      <img
-        class="summit-img"
-        src="./images/about_2013 1.png"
-        alt="about logo"
-      />
+      <div class="summit-images">
+        <img
+          class="summit-img"
+          src="./images/about_2011 1.png"
+          alt="about logo"
+        />
+        <img
+          class="summit-img"
+          src="./images/about_2013 1.png"
+          alt="about logo"
+        />
+      </div>
     </section>
 
     <section class="partner">
@@ -129,10 +149,19 @@
     </section>
 
     <footer class="footer">
-      <img class="footer-logo" src="./images/cck-logo1 1.png" alt="" />
-      <h5 class="copyright">
-        2015 Creative Commons Korea. Some Rights Reserved.
-      </h5>
+      <img class="footer-logo-mob" src="./images/cck-logo1 1.png" alt="" />
+      <img class="footer-logo-desk" src="./images/cck-logo1 1 (1).png" alt="" />
+      <div class="f-div">
+        <h5 class="copyright">
+          2015 Creative Commons Korea. Some Rights Reserved.
+        </h5>
+        <p class="copy-para">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. At
+          repellendus hic iure iste dolorum minima autem deleniti rem cupiditate
+          recusandae reprehenderit corporis quasi, alias veniam magni voluptas,
+          impedit dignissimos et.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
