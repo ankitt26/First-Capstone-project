@@ -403,6 +403,16 @@ body {
     align-items: center;
     color: #868686;
     padding: 0 20px;
+    text-decoration: none;
+  }
+
+  .about-li {
+    color: red;
+    text-decoration: none;
+  }
+
+  .about-li:hover {
+    color: rgb(106, 204, 247);
   }
 
   .highlight {
