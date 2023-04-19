@@ -5,24 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./about.css" />
     <script src="./index.js"></script>
   </head>
 
   <body>
     <header>
-      <a href="./index.html">
-        <img class="ham" src="./images/list.svg" alt="" />
-      </a>
-      <a class="logo-link" href="./index.html"
-        ><img class="logo" src="./images/logo.png" alt="" />
-      </a>
+      <navbar class="mob-navbar">
+        <a href="./index.html">
+          <img class="ham" src="./images/list.svg" alt="" />
+        </a>
+        <a class="logo-link" href="./index.html"
+          ><img class="logo" src="./images/logo.png" alt="" />
+        </a>
+      </navbar>
+
+      <!-- desktop navbar start -->
+      <div class="nav-banner">
+        <ul class="banner-ul">
+          <li class="banner-li"><img src="./images/facebook.png" alt="" /></li>
+          <li class="banner-li"><img src="./images/twitter.png" alt="" /></li>
+          <li class="banner-li">English</li>
+          <li class="banner-li">MyPage</li>
+          <li class="banner-li">Logout</li>
+        </ul>
+      </div>
+
+      <nav class="desktop-nav">
+        <a href="./index.html"><img src="./images/logo.png" alt="" /></a>
+        <ul class="nav-ul">
+          <li class="nav-li">About</li>
+          <li class="nav-li">Program</li>
+          <li class="nav-li">Join</li>
+          <li class="nav-li">Sponsor</li>
+          <li class="nav-li">News</li>
+          <li class="nav-li highlight">CC Campaign</li>
+        </ul>
+      </nav>
+      <!-- desktop navbar end -->
     </header>
 
     <section class="about-page">
@@ -96,7 +119,11 @@
         <img class="brand-img" src="./images/brands/mozilla 1.png" alt="" />
         <img class="brand-img" src="./images/brands/googlekorea 1.png" alt="" />
         <img class="brand-img" src="./images/brands/naver 1.png" alt="" />
-        <img class="brand-img" src="./images/brands/daumkakaologo 1.png" alt="" />
+        <img
+          class="brand-img"
+          src="./images/brands/daumkakaologo 1.png"
+          alt=""
+        />
         <img class="brand-img" src="./images/brands/airbnb 1.png" alt="" />
       </div>
     </section>
