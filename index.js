@@ -1,10 +1,7 @@
 // main-menu
-const mobnav = document.querySelector('.mob-navbar');
 const ham = document.querySelector('.ham');
 
 ham.addEventListener('click', () => {
-  mobnav.classList.add('d-mob-nav');
-
   const sect = document.createElement('section');
   sect.classList.add('menu');
   sect.innerHTML = `
@@ -26,7 +23,7 @@ ham.addEventListener('click', () => {
   cross.addEventListener('click', () => {
     sect.classList.remove('menu');
     sect.classList.add('hide');
-    mobnav.classList.remove('d-mob-nav');
+
     menu.remove(sect);
   });
 

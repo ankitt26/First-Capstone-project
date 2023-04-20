@@ -63,32 +63,7 @@ body {
     color: #ec5242;
   }
 
-  .mob-navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    background-color: #fff;
-    position: relative;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-  }
-
-  .d-mob-nav {
-    display: none;
-  }
-
-  .logo-link {
-    width: 100%;
-    text-align: center;
-    padding-right: 50px;
-  }
-
-  .logo {
-    width: 75px;
-    height: 55px;
-    margin: 2px auto -5px;
-  }
+  /* hamburger icon */
 
   .ham {
     margin: 11px 0 6px 20px;
@@ -106,11 +81,12 @@ body {
     color: #272a31;
     background: url("./images/home-back.png");
     background-size: 100%;
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+    background-color: #f7f7f8;
   }
 
   .main-box1 {
-    padding: 75px 20px 0;
+    padding: 24px 23px 0;
   }
 
   .main-greeting {
@@ -143,7 +119,7 @@ body {
   }
 
   .main-box2 {
-    margin: 10px 20px;
+    margin: 10px 20px 55px;
     height: 110px;
   }
 
@@ -373,7 +349,7 @@ body {
 /* desktop version */
 
 @media only screen and (min-width: 770px) {
-  .mob-navbar {
+  .ham {
     display: none;
   }
 
