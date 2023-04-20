@@ -57,6 +57,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
     background-color: #fff;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
@@ -75,8 +76,8 @@ body {
   }
 
   .ham {
-    margin: 11px 0 6px 20px;
-    width: 30px;
+    margin: 11px 0 6px 15px;
+    width: 35px;
   }
 
   .nav-banner {
@@ -324,6 +325,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding-bottom: 20px;
   }
 
   .footer-logo {
