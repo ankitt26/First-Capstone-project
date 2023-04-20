@@ -70,7 +70,12 @@ body {
     align-items: center;
     width: 100%;
     background-color: #fff;
+    position: relative;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .d-mob-nav {
+    display: none;
   }
 
   .logo-link {
@@ -86,8 +91,8 @@ body {
   }
 
   .ham {
-    margin: 11px 0 6px 15px;
-    width: 35px;
+    margin: 11px 0 6px 20px;
+    width: 30px;
   }
 
   /* main-page */
@@ -422,7 +427,7 @@ body {
   /* desktop-navbar */
 
   .desktop-nav {
-    width: 96%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -430,6 +435,8 @@ body {
     gap: 135px;
     height: 55px;
     background: #fff;
+    position: relative;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   }
 
   .desktop-logo {
