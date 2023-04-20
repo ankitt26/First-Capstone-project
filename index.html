@@ -1,181 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First Capstone Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@700;900&family=Lato&family=Montserrat:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>First Capstone Project</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@700;900&family=Lato&family=Montserrat:wght@700;900&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css" />
+  <body>
+    <header>
+      <navbar class="mob-navbar">
+        <div>
+          <img class="ham" src="./images/list.svg" alt="" />
+        </div>
+        <a class="logo-link" href="./index.html">
+          <img class="logo" src="./images/logo.png" alt="" />
+        </a>
+      </navbar>
 
-</head>
-
-<body>
-  <header>
-    <navbar class="mob-navbar">
-      <div>
-        <img class="ham" src="./images/list.svg" alt="">
+      <!-- desktop navbar start -->
+      <div class="nav-banner">
+        <ul class="banner-ul">
+          <li class="banner-li">
+            <img class="facebook" src="./images/facebook.png" alt="" />
+          </li>
+          <li class="banner-li">
+            <img class="twitter" src="./images/twitter.png" alt="" />
+          </li>
+          <li class="banner-li">English</li>
+          <li class="banner-li">MyPage</li>
+          <li class="banner-li">Logout</li>
+        </ul>
       </div>
-      <a class="logo-link" href="./index.html">
-        <img class="logo" src="./images/logo.png" alt="" />
-      </a>
-    </navbar>
 
-    <!-- desktop navbar start -->
-    <div class="nav-banner">
-      <ul class="banner-ul">
-        <li class="banner-li"><img class="facebook" src="./images/facebook.png" alt=""></li>
-        <li class="banner-li"><img class="twitter" src="./images/twitter.png" alt=""></li>
-        <li class="banner-li">English</li>
-        <li class="banner-li">MyPage</li>
-        <li class="banner-li">Logout</li>
-      </ul>
-    </div>
+      <nav class="desktop-nav">
+        <a href="./index.html"
+          ><img class="desktop-logo" src="./images/logo.png" alt=""
+        /></a>
+        <ul class="nav-ul">
+          <li class="nav-li">
+            <a class="about-li" href="./about.html">About</a>
+          </li>
+          <li class="nav-li"><a href="#" class="all-li">Program</a></li>
+          <li class="nav-li"><a href="#" class="all-li">Join</a></li>
+          <li class="nav-li"><a href="#" class="all-li">Sponsor</a></li>
+          <li class="nav-li"><a href="#" class="all-li">News</a></li>
+          <li class="nav-li highlight">
+            <a href="#" class="about-li">CC Campaign</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- desktop navbar end -->
+    </header>
 
-    <nav class="desktop-nav">
-      <a href="./index.html"><img class="desktop-logo" src="./images/logo.png" alt=""></a>
-      <ul class="nav-ul">
-        <li class="nav-li"><a class="about-li" href="./about.html">About</a></li>
-        <li class="nav-li"><a href="#" class="all-li">Program</a></li>
-        <li class="nav-li"><a href="#" class="all-li">Join</a></li>
-        <li class="nav-li"><a href="#" class="all-li">Sponsor</a></li>
-        <li class="nav-li"><a href="#" class="all-li">News</a></li>
-        <li class="nav-li highlight"><a href="#" class="about-li">CC Campaign</a></li>
-      </ul>
-    </nav>
-    <!-- desktop navbar end -->
-  </header>
+    <main>
+      <section class="main-page">
+        <div class="main-box1">
+          <h3 class="main-greeting">"Hello! sharing world"</h3>
+          <h1 class="main-heading">CREATIVE COMMONS GLOBAL SUMMIT 2015</h1>
+        </div>
+        <div class="parabox">
+          <p class="main-para">
+            A joyful celebration believing in the value of openness and sharing,
+            creating a positive change with people from over 80 countries is
+            taking place in October, in Korea.
+          </p>
+        </div>
+        <div class="main-box2">
+          <h2 class="main-box2-h2">2015.10.15(THU) - 16 (FRI)</h2>
+          <p class="main-box2-para">
+            @ National Museum of Karea, Art Center Nabi and more
+          </p>
+        </div>
+      </section>
 
-  <main>
-    <section class="main-page">
-      <div class="main-box1">
-        <h3 class="main-greeting">"Hello! sharing world"</h3>
-        <h1 class="main-heading">CREATIVE COMMONS GLOBAL SUMMIT 2015</h1>
+      <!-- main program -->
+
+      <section class="main-program">
+        <div class="main-program-heading-div">
+          <h2 class="main-program-h2">Min main-program</h2>
+          <hr class="main-hr" />
+        </div>
+
+        <div class="main-feature">
+          <div class="feature">
+            <img
+              class="feature-icon"
+              src="./images/program_icon_01 1.png"
+              alt=""
+            />
+            <h3 class="feature-heading">Lecture lecture</h3>
+            <p class="feature-para">
+              Listen to the speakers from various countries about the messages
+              of sharing and opening.
+            </p>
+          </div>
+
+          <div class="feature">
+            <img
+              class="feature-icon"
+              src="./images/program_icon_02 1.png"
+              alt=""
+            />
+            <h4 class="feature-heading">Lecture this 2</h4>
+            <p class="feature-para">
+              Listen to the speakers from various countries about the messages
+              of sharing and opening.
+            </p>
+          </div>
+
+          <div class="feature">
+            <img
+              class="feature-icon"
+              src="./images/program_icon_03 1.png"
+              alt=""
+            />
+            <h4 class="feature-heading">Lecture this 2</h4>
+            <p class="feature-para">
+              Listen to the speakers from various countries about the messages
+              of sharing and opening.
+            </p>
+          </div>
+
+          <div class="feature">
+            <img
+              class="feature-icon"
+              src="./images/program_icon_04 1.png"
+              alt=""
+            />
+            <h4 class="feature-heading">Lecture this 2</h4>
+            <p class="feature-para">
+              Listen to the speakers from various countries about the messages
+              of sharing and opening.
+            </p>
+          </div>
+
+          <div class="feature">
+            <img
+              class="feature-icon"
+              src="./images/program_icon_05 1.png"
+              alt=""
+            />
+            <h4 class="feature-heading">Lecture this 2</h4>
+            <p class="feature-para">
+              Listen to the speakers from various countries about the messages
+              of sharing and opening.
+            </p>
+          </div>
+        </div>
+
+        <div class="">
+          <button class="join-btn">Join CC Global Summit 2015</button>
+          <button class="see-btn">SEE THE WHOLE PROGRAM</button>
+        </div>
+      </section>
+
+      <!-- speakers section -->
+
+      <section class="speaker">
+        <div class="speaker-heading-div">
+          <h2 class="speaker-h2">Featured Speakers</h2>
+          <hr class="speaker-hr" />
+        </div>
+
+        <div class="speaker-group">
+          <!-- speaker here -->
+        </div>
+
+        <div class="s-div">
+          <button class="speaker-btn">
+            MORE
+            <img
+              class="arrow-down"
+              src="./images/arrow_down 1.png"
+              alt="arrow-down"
+            />
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <section class="partner">
+      <div class="partner-heading-div">
+        <h2 class="partner-h2">Partners</h2>
+        <hr class="hr" />
       </div>
-      <div class="parabox">
-        <p class="main-para">
-          A joyful celebration believing in the value of openness and sharing,
-          creating a positive change with people from over 80 countries is
-          taking place in October, in Korea.
-        </p>
-      </div>
-      <div class="main-box2">
-        <h2 class="main-box2-h2">2015.10.15(THU) - 16 (FRI)</h2>
-        <p class="main-box2-para">
-          @ National Museum of Karea, Art Center Nabi and more
-        </p>
+      <div class="brand">
+        <img class="brand-img" src="./images/brands/mozilla 1.png" alt="" />
+        <img class="brand-img" src="./images/brands/googlekorea 1.png" alt="" />
+        <img class="brand-img" src="./images/brands/naver 1.png" alt="" />
+        <img
+          class="brand-img"
+          src="./images/brands/daumkakaologo 1.png"
+          alt=""
+        />
+        <img class="brand-img" src="./images/brands/airbnb 1.png" alt="" />
       </div>
     </section>
 
-    <!-- main program -->
-
-    <section class="main-program">
-      <div class="main-program-heading-div">
-        <h2 class="main-program-h2">Min main-program</h2>
-        <hr class="main-hr" />
-      </div>
-
-      <div class="main-feature">
-        <div class="feature">
-          <img class="feature-icon" src="./images/program_icon_01 1.png" alt="" />
-          <h3 class="feature-heading">Lecture lecture</h3>
-          <p class="feature-para">
-            Listen to the speakers from various countries about the messages
-            of sharing and opening.
-          </p>
-        </div>
-
-        <div class="feature">
-          <img class="feature-icon" src="./images/program_icon_02 1.png" alt="" />
-          <h4 class="feature-heading">Lecture this 2</h4>
-          <p class="feature-para">
-            Listen to the speakers from various countries about the messages
-            of sharing and opening.
-          </p>
-        </div>
-
-        <div class="feature">
-          <img class="feature-icon" src="./images/program_icon_03 1.png" alt="" />
-          <h4 class="feature-heading">Lecture this 2</h4>
-          <p class="feature-para">
-            Listen to the speakers from various countries about the messages
-            of sharing and opening.
-          </p>
-        </div>
-
-        <div class="feature">
-          <img class="feature-icon" src="./images/program_icon_04 1.png" alt="" />
-          <h4 class="feature-heading">Lecture this 2</h4>
-          <p class="feature-para">
-            Listen to the speakers from various countries about the messages
-            of sharing and opening.
-          </p>
-        </div>
-
-        <div class="feature">
-          <img class="feature-icon" src="./images/program_icon_05 1.png" alt="" />
-          <h4 class="feature-heading">Lecture this 2</h4>
-          <p class="feature-para">
-            Listen to the speakers from various countries about the messages
-            of sharing and opening.
-          </p>
-        </div>
-
-      </div>
-
-      <div class="">
-        <button class="join-btn">Join CC Global Summit 2015</button>
-        <button class="see-btn">SEE THE WHOLE PROGRAM</button>
-      </div>
-    </section>
-
-    <!-- speakers section -->
-
-    <section class="speaker">
-      <div class="speaker-heading-div">
-        <h2 class="speaker-h2">Featured Speakers</h2>
-        <hr class="speaker-hr" />
-      </div>
-
-      <div class="speaker-group">
-        <!-- speaker here -->
-      </div>
-
-      </div class="s-div">
-      <button class="speaker-btn">MORE <img class="arrow-down" src="./images/arrow_down 1.png"
-          alt="arrow-down"></button>
-      </div>
-
-    </section>
-  </main>
-
-  <section class="partner">
-    <div class="partner-heading-div">
-      <h2 class="partner-h2">Partners</h2>
-      <hr class="hr" />
-    </div>
-    <div class="brand">
-      <img class="brand-img" src="./images/brands/mozilla 1.png" alt="" />
-      <img class="brand-img" src="./images/brands/googlekorea 1.png" alt="" />
-      <img class="brand-img" src="./images/brands/naver 1.png" alt="" />
-      <img class="brand-img" src="./images/brands/daumkakaologo 1.png" alt="" />
-      <img class="brand-img" src="./images/brands/airbnb 1.png" alt="" />
-    </div>
-  </section>
-
-  <footer class="footer">
-    <img class="footer-logo" src="./images/cck-logo1 1.png" alt="" />
-    <h5 class="copyright">
-      2015 Creative Commons Korea. Some Rights Reserved.
-    </h5>
-  </footer>
-  <script src="./index.js"></script>
-  <script src="./speakers.js"></script>
-</body>
-
+    <footer class="footer">
+      <img class="footer-logo" src="./images/cck-logo1 1.png" alt="" />
+      <h5 class="copyright">
+        2015 Creative Commons Korea. Some Rights Reserved.
+      </h5>
+    </footer>
+    <script src="./index.js"></script>
+    <script src="./speakers.js"></script>
+  </body>
 </html>
