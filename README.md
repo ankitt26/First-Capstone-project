@@ -86,7 +86,10 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-will be updated soon...
+- Home page
+- About page
+- popup menu
+- speakers content render dynamically
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -94,7 +97,7 @@ will be updated soon...
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> coming soon..
+> https://ankitt26.github.io/First-Capstone-project/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -148,7 +151,7 @@ coming soon
 
 ### Deployment
 
-coming soon...
+https://ankitt26.github.io/First-Capstone-project/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -168,7 +171,9 @@ coming soon...
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-building in progress ..
+- contact page
+- feedback form
+- chatbox
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -202,6 +207,8 @@ I would like to thank Microverse
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+- This project is [MIT](./LICENSE) licensed.
+
+- <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
