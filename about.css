@@ -163,12 +163,14 @@ body {
     line-height: 25px;
     color: #7a7a7a;
   }
+
   .email-div {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
   }
+
   .email {
     width: 166px;
     height: 20px;
@@ -183,6 +185,7 @@ body {
     color: #5f5f5f;
     margin-top: -4px;
   }
+
   .arrow {
     position: relative;
     right: 14px;
