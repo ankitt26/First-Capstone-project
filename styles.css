@@ -79,8 +79,9 @@ body {
   }
 
   .logo {
-    width: 100px;
-    margin: 6px auto;
+    width: 75px;
+    height: 55px;
+    margin: 2px auto -5px;
   }
 
   .ham {
@@ -432,7 +433,9 @@ body {
 
   .desktop-logo {
     padding-left: 60%;
-    width: 100px;
+    width: 75px;
+    height: 58px;
+    padding-top: 5px;
   }
 
   .nav-ul {
@@ -831,29 +834,45 @@ body {
 
   .footer {
     width: 100%;
-    height: 150px;
+    height: 160px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    gap: 105px;
+    align-items: flex-end;
+    background-color: #f7f7f8;
   }
 
   .footer-logo {
-    width: 250px;
+    width: 119px;
+    height: 102px;
     padding: 20px;
-    padding-left: 100px;
+  }
+
+  .f-div {
+    max-width: 50%;
+    padding: 20px;
+    padding-left: 40px;
   }
 
   .copyright {
-    width: 608px;
-    height: 24px;
     font-family: "Lato", sans-serif;
     font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 13px;
-    letter-spacing: -0.01em;
-    color: #3b3e45;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color: #c9c5c5;
+  }
+
+  .copy-para {
+    max-width: 720px;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #918b8b;
+    margin-top: -13px;
   }
 }
