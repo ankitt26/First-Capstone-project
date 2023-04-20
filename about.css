@@ -77,7 +77,7 @@ body {
     color: #272a31;
     background: url("./images/about-back.png");
     background-size: 100%;
-    background-position-y: -50px;
+    background-position-y: 7px;
     background-repeat: no-repeat;
     background-color: #f7f7f8;
   }
@@ -106,6 +106,7 @@ body {
     text-align: center;
     background-color: #fff;
     margin: 12px;
+    margin-top: 0px;
   }
 
   .about-para {

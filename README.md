@@ -200,7 +200,7 @@ If you like this project give it a star
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 This web development project is a dynamic and responsive website that utilizes HTML, CSS, JavaScript
-To see the brief description of the project see this loom video -
+To see the brief description of the project see this [loom video](https://www.loom.com/share/0be353dcd83e4e788719e7deea830ab2).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
