@@ -753,6 +753,7 @@ body {
 
   .speaker-btn {
     width: 70%;
+    max-width: 720px;
     height: 38px;
     border: 1px solid #dcdcdc;
     filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
@@ -847,7 +848,7 @@ body {
   .copyright {
     width: 608px;
     height: 24px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
