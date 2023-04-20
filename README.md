@@ -199,7 +199,8 @@ If you like this project give it a star
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse
+This web development project is a dynamic and responsive website that utilizes HTML, CSS, JavaScript
+To see the brief description of the project see this loom video -
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -209,6 +210,7 @@ I would like to thank Microverse
 
 - This project is [MIT](./LICENSE) licensed.
 
-- <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+- Templete used in project provided by (Microverse).
+- Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

@@ -357,18 +357,18 @@ body {
     font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 11px;
+    font-size: 9px;
     line-height: 28px;
     letter-spacing: 0.02em;
     color: #696969;
   }
 
   .copy-para {
-    max-width: 720px;
+    max-width: 180px;
     font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 11px;
     line-height: 18px;
     letter-spacing: 0.01em;
     color: #918b8b;
@@ -413,7 +413,7 @@ body {
     flex-direction: row;
     align-items: center;
     list-style: none;
-    padding: 0 20% 0 0;
+    padding: 0 12% 0 0;
   }
 
   .banner-li {
@@ -499,7 +499,7 @@ body {
     color: red;
     border: 2px solid red;
     padding: 8px;
-    width: 85px;
+    width: 57px;
     margin-left: 22px;
   }
 

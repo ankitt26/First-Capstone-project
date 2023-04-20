@@ -403,7 +403,7 @@ body {
     flex-direction: row;
     align-items: center;
     list-style: none;
-    padding: 0 20% 0 0;
+    padding: 0 12% 0 0;
   }
 
   .banner-li {
@@ -490,7 +490,7 @@ body {
     color: red;
     border: 2px solid red;
     padding: 8px;
-    width: 85px;
+    width: 57px;
     margin-left: 22px;
   }
 
