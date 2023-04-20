@@ -86,7 +86,10 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-will be updated soon...
+- Home page
+- About page
+- popup menu
+- speakers content render dynamically
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -94,7 +97,7 @@ will be updated soon...
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> coming soon..
+> https://ankitt26.github.io/First-Capstone-project/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -148,7 +151,7 @@ coming soon
 
 ### Deployment
 
-coming soon...
+https://ankitt26.github.io/First-Capstone-project/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -168,7 +171,9 @@ coming soon...
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-building in progress ..
+- contact page
+- feedback form
+- chatbox
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -194,7 +199,8 @@ If you like this project give it a star
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse
+This web development project is a dynamic and responsive website that utilizes HTML, CSS, JavaScript
+To see the brief description of the project see this [loom video](https://www.loom.com/share/0be353dcd83e4e788719e7deea830ab2).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -202,6 +208,9 @@ I would like to thank Microverse
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+- This project is [MIT](./LICENSE) licensed.
+
+- Templete used in project provided by (Microverse).
+- Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
