@@ -461,6 +461,10 @@ body {
     text-decoration: none;
   }
 
+  .all-li {
+    color: #7a7a7a;
+  }
+
   .all-li:hover {
     color: rgb(106, 204, 247);
   }

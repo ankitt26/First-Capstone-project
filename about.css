@@ -449,6 +449,10 @@ body {
     text-decoration: none;
   }
 
+  .all-li {
+    color: #7a7a7a;
+  }
+
   .all-li:hover {
     color: rgb(106, 204, 247);
   }
@@ -715,7 +719,7 @@ body {
 
   .copy-para {
     max-width: 720px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
